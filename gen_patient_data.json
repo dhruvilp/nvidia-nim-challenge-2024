@@ -1,0 +1,154 @@
+{
+  "patient": {
+    "id": "123456789",
+    "name": {
+      "first": "Jane",
+      "middle": "A.",
+      "last": "Doe"
+    },
+    "demographics": {
+      "age": 57,
+      "gender": "female",
+      "race": "white",
+      "ethnicity": "non-hispanic",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "contact": {
+        "phone": "(555) 123-4567",
+        "email": "jane.doe@example.com"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "Hypertension",
+        "code": "I10",
+        "description": "Essential (primary) hypertension",
+        "onset_date": "2015-06-01"
+      },
+      {
+        "condition": "Diabetes Mellitus",
+        "code": "E11.9",
+        "description": "Type 2 diabetes mellitus without complications",
+        "onset_date": "2018-03-15"
+      },
+      {
+        "condition": "Chronic Myeloid Leukemia",
+        "code": "C92.1",
+        "description": "Chronic myeloid leukemia, BCR-ABL1 positive",
+        "onset_date": "2020-08-20"
+      },
+      {
+        "condition": "History of Blood Clot",
+        "code": "Z86.718",
+        "description": "Personal history of other venous thrombosis and embolism",
+        "onset_date": "2017-11-05"
+      },
+      {
+        "condition": "Generalized Anxiety Disorder",
+        "code": "F41.1",
+        "description": "Generalized anxiety disorder",
+        "onset_date": "2019-05-22"
+      }
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dosage": "10 mg",
+        "frequency": "once daily",
+        "start_date": "2015-06-01",
+        "condition": "Hypertension"
+      },
+      {
+        "medication": "Metformin",
+        "dosage": "500 mg",
+        "frequency": "twice daily",
+        "start_date": "2018-03-15",
+        "condition": "Diabetes Mellitus"
+      },
+      {
+        "medication": "Imatinib",
+        "dosage": "400 mg",
+        "frequency": "once daily",
+        "start_date": "2020-08-20",
+        "condition": "Chronic Myeloid Leukemia"
+      },
+      {
+        "medication": "Warfarin",
+        "dosage": "5 mg",
+        "frequency": "once daily",
+        "start_date": "2017-11-05",
+        "condition": "History of Blood Clot"
+      },
+      {
+        "medication": "Sertraline",
+        "dosage": "50 mg",
+        "frequency": "once daily",
+        "start_date": "2019-05-22",
+        "condition": "Generalized Anxiety Disorder"
+      }
+    ],
+    "allergies": [
+      {
+        "allergy": "Penicillin",
+        "reaction": "Rash"
+      }
+    ],
+    "immunizations": [
+      {
+        "vaccine": "Influenza",
+        "date": "2023-10-01"
+      },
+      {
+        "vaccine": "COVID-19",
+        "date": "2022-11-15"
+      }
+    ],
+    "vital_signs": {
+      "last_recorded_date": "2024-06-15",
+      "blood_pressure": {
+        "systolic": 140,
+        "diastolic": 90
+      },
+      "heart_rate": 75,
+      "respiratory_rate": 16,
+      "temperature": 98.6
+    },
+    "lab_results": [
+      {
+        "test": "Hemoglobin A1c",
+        "value": "7.5%",
+        "date": "2024-04-10",
+        "normal_range": "4.0-5.6%"
+      },
+      {
+        "test": "Complete Blood Count",
+        "components": {
+          "WBC": "4.5",
+          "RBC": "3.8",
+          "Hemoglobin": "11.5",
+          "Hematocrit": "35%",
+          "Platelets": "150"
+        },
+        "date": "2024-04-10",
+        "normal_ranges": {
+          "WBC": "4.0-11.0",
+          "RBC": "4.2-5.9",
+          "Hemoglobin": "12.0-16.0",
+          "Hematocrit": "36-46%",
+          "Platelets": "150-450"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "date": "2024-05-20",
+        "author": "Dr. John Smith",
+        "note": "Patient reports increased anxiety and difficulty sleeping. Recommended cognitive behavioral therapy and adjusted Sertraline dosage."
+      }
+    ]
+  }
+}

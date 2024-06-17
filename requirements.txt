@@ -1,0 +1,17 @@
+openai
+python-dotenv
+faiss-cpu 
+tiktoken 
+python-dotenv
+langchain 
+langchain-core
+langchain_community
+langchain_nvidia_ai_endpoints
+streamlit
+fastapi
+langserve
+chainlit
+markdown2 
+pdfkit
+pypdf
+docarray
